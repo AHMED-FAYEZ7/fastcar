@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About FastCar</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    /* Header */
+    .header {
+      background: #2e7d32;
+      padding: 40px 20px 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .car-icon {
+      width: 90px;
+      height: 90px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+    }
+
+    .car-icon svg {
+      width: 50px;
+      height: 50px;
+      fill: #2e7d32;
+    }
+
+    .header h1 {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .header p {
+      font-size: 14px;
+      opacity: 0.85;
+      margin-bottom: 24px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .stat-box {
+      background: rgba(255,255,255,0.15);
+      border-radius: 12px;
+      padding: 12px 18px;
+      text-align: center;
+      min-width: 80px;
+    }
+
+    .stat-box .num {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .stat-box .label {
+      font-size: 12px;
+      opacity: 0.85;
+    }
+
+    /* Content */
+    .content {
+      padding: 24px 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      color: #2e7d32;
+      margin: 28px 0 12px;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: bold;
+      color: #2e7d32;
+      text-align: center;
+      margin: 16px 0 8px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      line-height: 1.9;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: #2e7d32;
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      color: #222;
+      margin: 28px 0 12px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #555;
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="car-icon">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+      </svg>
+    </div>
+    <h1>FastCar</h1>
+    <p>Your companion in every trip</p>
+    <div class="stats">
+      <div class="stat-box">
+        <div class="num">10K+</div>
+        <div class="label">Users</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">1K+</div>
+        <div class="label">Drivers</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">4.8 ⭐</div>
+        <div class="label">Rating</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <h2>حول تطبيق FastCar</h2>
+
+    <div class="section-title">رؤيتنا</div>
+    <p>نسعى لتكون الخيار الأول والأفضل لخدمات النقل والتوصيل في سوريا، من خلال توفير تجربة نقل آمنة وموثوقة ومريحة للجميع.</p>
+
+    <div class="section-title">مهمتنا</div>
+    <p>ربط الركاب بالسائقين المؤهلين بطريقة سريعة وآمنة، مع توفير أسعار عادلة وخدمة عالية الجودة تلبي احتياجات المجتمع السوري.</p>
+
+    <div class="section-title">قصتنا</div>
+    <p>تأسس تطبيق FastCar في عام 2024 بهدف حل مشاكل النقل اليومية التي يواجهها المواطنون في سوريا. بدأنا بفكرة بسيطة: كيف يمكننا جعل التنقل أسهل وأكثر أماناً للجميع؟</p>
+    <p>منذ إطلاقنا، نجحنا في:</p>
+    <ul>
+      <li>خدمة آلاف العملاء عبر البلاد</li>
+      <li>توفير فرص عمل لمئات السائقين</li>
+      <li>تقديم خدمة موثوقة على مدار الساعة</li>
+    </ul>
+
+    <h2>خدماتنا</h2>
+
+    <h3>للركاب</h3>
+    <ul>
+      <li>حجز رحلات فورية أو مجدولة</li>
+      <li>تتبع مباشر للسائق والمسار</li>
+      <li>أسعار شفافة وعادلة</li>
+      <li>طرق دفع متنوعة</li>
+      <li>تقييم السائقين والرحلات</li>
+      <li>دعم فني على مدار الساعة</li>
+    </ul>
+
+    <h3>للسائقين</h3>
+    <ul>
+      <li>انضمام سهل بعد التحقق من المؤهلات</li>
+      <li>كسب دخل إضافي مرن</li>
+      <li>نظام محفظة إلكترونية</li>
+      <li>تأمين شامل للرحلات</li>
+      <li>تدريب مستمر على خدمة العملاء</li>
+    </ul>
+
+    <h2>مميزاتنا</h2>
+
+    <h3>الأمان أولاً</h3>
+    <ul>
+      <li>تحقق شامل من هوية جميع السائقين</li>
+      <li>تتبع مباشر لجميع الرحلات</li>
+      <li>نظام تقييم شامل</li>
+      <li>خط ساخن للطوارئ</li>
+      <li>تأمين شامل على جميع الرحلات</li>
+    </ul>
+
+    <h3>التكنولوجيا المتقدمة</h3>
+    <ul>
+      <li>خوارزميات ذكية لاختيار أفضل المسارات</li>
+      <li>تحديد دقيق للموقع باستخدام GPS</li>
+      <li>واجهة مستخدم بسيطة وسهلة</li>
+      <li>إشعارات فورية لتحديثات الرحلة</li>
+    </ul>
+
+    <h3>الدعم المحلي</h3>
+    <ul>
+      <li>فريق دعم يتحدث العربية</li>
+      <li>فهم عميق للثقافة والاحتياجات المحلية</li>
+      <li>أسعار مناسبة للسوق السوري</li>
+      <li>شراكات مع الشركات المحلية</li>
+    </ul>
+
+    <div class="section-title">قيمنا</div>
+
+    <h3>الأمانة والشفافية</h3>
+    <p>نؤمن بالتعامل الصادق مع عملائنا، بدءاً من الأسعار الواضحة وحتى سياسات الخدمة المفهومة.</p>
+
+    <h3>الأمان والموثوقية</h3>
+    <p>سلامة عملائنا هي أولويتنا القصوى. نستثمر في أحدث التقنيات ونطبق أعلى معايير الأمان.</p>
+
+    <h3>الابتكار المستمر</h3>
+    <p>نعمل باستمرار على تطوير خدماتنا وإضافة مميزات جديدة تلبي احتياجات عملائنا المتطورة.</p>
+
+    <h3>المسؤولية الاجتماعية</h3>
+    <p>نؤمن بدورنا في خدمة المجتمع وتوفير فرص العمل والمساهمة في التنمية الاقتصادية.</p>
+
+    <div class="section-title">إحصائياتنا</div>
+    <ul>
+      <li>أكثر من 10,000 مستخدم نشط</li>
+      <li>أكثر من 1,000 سائق معتمد</li>
+      <li>متوسط تقييم 4.8 من 5 نجوم</li>
+      <li>تغطية في أكثر من 15 مدينة سورية</li>
+      <li>متوسط وقت انتظار أقل من 5 دقائق</li>
+    </ul>
+
+    <div class="section-title">فريق العمل</div>
+    <p>يضم فريق FastCar مجموعة من الخبراء والمتخصصين في مجالات:</p>
+    <ul>
+      <li>تطوير التطبيقات والبرمجيات</li>
+      <li>خدمة العملاء والدعم الفني</li>
+      <li>الأمان وإدارة المخاطر</li>
+      <li>التسويق والعلاقات العامة</li>
+      <li>الإدارة المالية والمحاسبة</li>
+    </ul>
+
+    <div class="section-title">رؤيتنا المستقبلية</div>
+    <p>نتطلع إلى:</p>
+    <ul>
+      <li>التوسع لتغطية جميع المدن السورية</li>
+      <li>إضافة خدمات توصيل البضائع والطرود</li>
+      <li>تطوير خدمات النقل الجماعي</li>
+      <li>الشراكة مع المؤسسات الحكومية والخاصة</li>
+      <li>المساهمة في بناء نظام نقل ذكي ومستدام</li>
+    </ul>
+
+    <div class="section-title">تواصل معنا</div>
+    <p>نحن دائماً هنا لخدمتكم:</p>
+    <ul>
+      <li>الموقع الإلكتروني: www.fastcar.sy</li>
+      <li>البريد الإلكتروني: info@fastcar.sy</li>
+      <li>الهاتف: +963-11-xxxx-xxx</li>
+      <li>العنوان: دمشق، سوريا</li>
+      <li>وسائل التواصل الاجتماعي: @FastCarSY</li>
+    </ul>
+
+  </div>
+
+  <div class="footer">
+    شكراً لاختياركم FastCar - رفيقكم في كل رحلة
+  </div>
+
+</body>
+</html>
